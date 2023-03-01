@@ -30,6 +30,7 @@ body {
     height: 90%;
     justify-content: space-between;
     margin-top: 150px;
+    color: white;
 }
 .navbar {
     display: flex;
@@ -81,4 +82,72 @@ button {
     width: 3cm;
     height: 0.65cm;
     
+}
+
+.box2 {
+    height: 400px;
+    background-color: rgb(214, 213, 120);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.picflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+    
+}
+    
+.pictext {
+   height: 300px;
+   width: 200px;
+   background-color: rgb(214, 213, 120);
+   gap:25px;
+}
+h1 {
+    background-color:rgb(214, 213, 120);
+    padding: 0;
+    margin:0;
+}
+.bordering {
+border-radius: 3cm;
+border-color:yellow;
+}
+.bordering img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1cm;
+    border:solid;
+    border-color:yellow;    
+}
+
+center {
+    padding:25px;
+}
+
+.box3 {
+    height: 300px;    
+    background-color: rgba(127, 255, 212, 0.63);
+    padding:0px;
+    padding-top: 100px;
+    
+}
+
+.box3 p {
+    width: 700px;
+    font-style: italic;
+    font-size: 26px;
+    margin:0px;
+    display: block;
+    margin: auto;
+}
+
+.rightp {
+    font-weight: bold;
+    font-size: 32px;
+    font-style: normal;
+    text-align: right;
+    margin-right: 625px;
 }
